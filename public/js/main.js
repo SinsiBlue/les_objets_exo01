@@ -4,6 +4,7 @@ var guerrier = {
     taille: 180,
     arme:"arc",
     vie: 100,
+    attaque: 500,
 };
 
 var mage = {
@@ -12,6 +13,7 @@ var mage = {
     taille: 190,
     arme: "baguette",
     vie: 200,
+    attaque: 700,
 };
 
 var paysan = {
@@ -20,4 +22,5 @@ var paysan = {
     taille: 110,
     arme: "anneau",
     vie: 150,
+    attaque: 1000,
 };
