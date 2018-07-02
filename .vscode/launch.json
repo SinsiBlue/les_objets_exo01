@@ -1,0 +1,15 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Lancer Chrome sur chemin index",
+            "url": "file:///home/molengeek/Bureau/coding-school/js_exo/les_objets_exo_01/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
