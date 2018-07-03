@@ -5,6 +5,14 @@ var guerrier = {
     arme:"arc",
     vie: 500,
     attaque: 100,
+    parler(){
+        alert("Bonjour je suis " + this.nom + " et j'ai " + this.age + " ans.");
+        var reponse_nom = prompt("Quel est ton nom?");
+        var reponse_age = prompt("Quel âge as-tu?");
+        // console.log(reponse_nom);
+        // console.log(reponse_age);
+        alert("Tu es donc" + " " + reponse_nom + " " + "et tu as" + " " + reponse_age + ".");
+    }
 };
 
 var mage = {
